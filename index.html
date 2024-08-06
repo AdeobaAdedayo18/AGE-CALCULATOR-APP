@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Age calculator app</title>
+</head>
+<body>
+
+  <div class="main-container">
+    <div class="top-page">
+      <form action="" id="form">
+        <div class="inputs">
+          <div class="input-container ">
+            <span>DAY</span>
+            <input id="day" type="text" placeholder="DD">
+            <div class="error"></div>
+          </div>
+
+          <div class="input-container ">
+            <span>MONTH</span>
+            <input type="text" id="month" placeholder="MM">
+            <div class="error"></div>
+          </div>
+
+          <div class="input-container ">
+            <span>YEAR</span>
+            <input id="year" type="text" placeholder="YYYY">
+            <div class="error"></div>
+          </div>
+        </div>
+        <div class="bottom-part">
+          <div class="border"></div>
+          <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></button>
+        </div>
+      </form>
+
+      
+    </div>
+
+    <div class="result-container">
+      <div class="breakdown">
+        <span id="years-answers">- -</span>
+        years
+      </div>
+      <div class="breakdown">
+        <span id="months-answers">- -</span>
+        months
+      </div>
+      <div class="breakdown">
+        <span id="days-answers">- -</span>
+        days
+      </div>
+    </div>
+  </div>
+  <!-- Day
+  DD
+
+  Month
+  MM
+
+  Year
+  YYYY
+
+  -- years
+  -- months
+  -- days -->
+  
+
+</body>
+
+<script src="app.js"></script>
+</html>
